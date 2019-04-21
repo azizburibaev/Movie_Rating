@@ -5,7 +5,7 @@ var Movie = function(aName, aRating) { //declaring constructor function with par
     this.isValid = function() {
             if (isNaN(this.rating) ) { //checking if valid numbers are entered
                 return false;
-            } else if ( this.rating < 1 || this.rating > 5 ) {
+            } else if ( this.rating < 1 || this.rating > 5 ) 
                 return false;
 		else if ( this.name ==="") {
                 return false;
