@@ -7,7 +7,7 @@ $( document ).ready(function() {
          myMovie = new Movie($("#movieName").val(), parseInt( $("#movieRating").val()));
 
         if ( !myMovie.isValid() ) {
-                $("#showSuccessEntry").text("Your need to enter 1,2,3,4, or 5 to rate the movie"); 
+                $("#showSuccessEntry").text("Your need to enter name of a movie and 1-5 to rate the movie"); 
                 $("#movieName").val( "" );
                 $("#movieRating").val( "" );
                 $("#movieName").focus();
